@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+        <title>Position - début</title>
+        <meta charset="UTF-8" />
+		<link rel="stylesheet" href="css/normalize.css" />
+		<style>
+		body{
+			text-align: left;
+			font-family: verdana, sans-serif;
+			font-size: 80%;
+		}
+        
+        body *{
+            box-sizing: border-box;
+        }    
+		
+		#global{
+			width: 800px;
+            border: 1px dotted black;
+			background-color: pink;
+            margin: 0 auto;
+			padding: 20px;
+		}
+		
+		header{
+			background-color: #ccc;
+			padding: 15px;
+            position: relative;
+            top: 100px;
+            
+		}
+		</style>
+	</head>
+	
+	<body>
+		<div id="global">
+			<header>
+				<h2>Position relative: header est a 100px plus bas que sa position par défaut</h2>
+			</header>
+		</div>
+	</body>
+</html>
